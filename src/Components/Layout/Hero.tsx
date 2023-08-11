@@ -3,11 +3,19 @@ import banner from '../../assets/img/capa.png';
 
 function Hero(props) {
   return (
-    <div>
-      <h1>hero</h1>
-      <img src={banner} alt="a oman and man wearing a sunglasses" />
-    </div>
+    <section className='bg-[url(src/assets/img/capa.png)] bg-cover'>
+      
+      <div className=''>
+        <h2 className='text-white'>low prices and</h2>
+        <h1 className='text-white text-2xl'>eyeglasses and sunglasses</h1>
+        <h2 className='text-white'>You only find it here</h2>
+      </div>
+
+      
+    
+    </section>
   );
 }
 
 export default Hero;
+
